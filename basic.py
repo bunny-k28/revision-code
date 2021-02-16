@@ -15,3 +15,9 @@ print(str1[4:0:-2])  # (-) for reverse, <variable>[start:end:step]
 
 # list slicing
 list1 = [1, 2, 'hello', 1.3, 1]
+
+# input statements key words:-
+
+# int - takes integer as input
+# str - takes string as input
+# eval - takes both string as well as integer as input
