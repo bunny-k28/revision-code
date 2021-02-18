@@ -6,6 +6,7 @@ while x<=5:
      x = x + 2  # incrementation value
 print('loop ended')
 
+
 # for loop
 # case 1
 for i in list2:
@@ -14,6 +15,7 @@ for i in list2:
 # for loop case 2
 for i in range( 0, 5):
      print(i)
+     
      
 # Fibonacci sequence
 terms = 10
@@ -29,6 +31,20 @@ while count < terms:
     num1 = num2
     num2 = temp
     count += 1
+     
+     
+# printing this pattern:-
+
+ '''1
+   2 2 
+  3 3 3 
+ 4 4 4 4 
+5 5 5 5 5'''
+     
+n = int(input('no. of rows: ')) # no. of rows as per the user choice
+for i in range(n):
+    print(' '*(n-i-1)+(str(i+1)+' ')*(i+1))
+
 
 # take n no. of integers from user using loop and print their average value on the screen.
 xyz = int(input('enter no. inputs: '))  # no of times the loop will execute, user choice
@@ -40,6 +56,7 @@ while abc <= xyz:  # <counter value> <logic> <times of loop>
     abc += 1  # xyz = xyz + 1
 avg = sum(lib)/2
 print(avg)
+
 
 # take 10 integers from user using loop and print their average value on the screen.
 xyz = 10  # no of times the loop will execute, as per the Q.
