@@ -14,3 +14,40 @@ for i in list2:
 # for loop case 2
 for i in range( 0, 5):
      print(i)
+     
+# Fibonacci sequence
+terms = 10
+# first two terms
+num1, num2 = 0, 1
+count = 0
+
+print("Fibonacci sequence:")
+while count < terms:
+    print(num1, end="  ")
+    temp = num1 + num2
+    # update values
+    num1 = num2
+    num2 = temp
+    count += 1
+
+# take n no. of integers from user using loop and print their average value on the screen.
+xyz = int(input('enter no. inputs: '))  # no of times the loop will execute, user choice
+abc = 1  # counter value/incrementing value
+lib = []  # list
+while abc <= xyz:  # <counter value> <logic> <times of loop>
+    num = int(input('enter no.'))  # sup. 1
+    lib.append(num)
+    abc += 1  # xyz = xyz + 1
+avg = sum(lib)/2
+print(avg)
+
+# take 10 integers from user using loop and print their average value on the screen.
+xyz = 10  # no of times the loop will execute, as per the Q.
+abc = 1  # counter value/incrementing value
+lib = []  # list
+while abc <= xyz:  # <counter value> <logic> <times of loop>
+    num = int(input('enter no.'))  # sup. 1
+    lib.append(num)
+    abc += 1  # xyz = xyz + 1
+avg = sum(lib)/2
+print(avg)
