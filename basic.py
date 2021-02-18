@@ -26,3 +26,14 @@ print(list1[0:3])  # (-) with step value for reverse slicing, <variable>[start:e
 # int - takes integer as input
 # str - takes string as input
 # eval - takes both string as well as integer as input
+
+
+# = - assigning a value to the left
+# == - comparing the values
+a = 1
+b = 1
+print(bool(a == b)) # --> ture
+
+x = 1
+y = 2
+print(bool(x == y)) # --> false
